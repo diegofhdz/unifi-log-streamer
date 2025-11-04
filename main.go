@@ -10,7 +10,7 @@ import (
 func main() {
 	fmt.Println("Creating UniFi Client")
 
-	c, err := client.New("192.168.1.1")
+	c, err := client.New("SomeUrl.Something")
 
 	if err != nil {
 		log.Fatal(err)
