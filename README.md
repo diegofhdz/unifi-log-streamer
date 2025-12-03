@@ -1,2 +1,2 @@
-# unifi-log-streamer
-Going to write a rust script to copy files from UniFi local log location and stream or batch them into AWS S3 for analytic capabilities. Eventually will be modularized to handle other clouds.
+# unifi-analytics
+This repo contains the relevant code to a personal project of mine which uses a combination of Kakfa, AWS and Google Looker to provide a real-time dashboard on my network usage.
